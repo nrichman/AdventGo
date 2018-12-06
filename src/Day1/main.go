@@ -8,11 +8,11 @@ import (
 )
 
 func main() {
-	fmt.Println(ProblemOne())
-	fmt.Println(ProblemTwo())
+	fmt.Println(problemOne())
+	fmt.Println(problemTwo())
 }
 
-func ProblemOne() int {
+func problemOne() int {
 	total := 0
 	data := utils.ReadFileAsStringSlice("input_1.txt")
 
@@ -34,7 +34,7 @@ func ProblemOne() int {
 	return total
 }
 
-func ProblemTwo() int {
+func problemTwo() int {
 	total := 0
 	data := utils.ReadFileAsStringSlice("input_1.txt")
 	dict := map[int]int{}
